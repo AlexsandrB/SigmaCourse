@@ -1,0 +1,7 @@
+C:\Users\MDS-Alex\Desktop\SigmaSW\4.1 arrays\bin\Debug\4.1 arrays.exe.config
+C:\Users\MDS-Alex\Desktop\SigmaSW\4.1 arrays\bin\Debug\4.1 arrays.exe
+C:\Users\MDS-Alex\Desktop\SigmaSW\4.1 arrays\bin\Debug\4.1 arrays.pdb
+C:\Users\MDS-Alex\Desktop\SigmaSW\4.1 arrays\obj\Debug\4.1 arrays.csprojAssemblyReference.cache
+C:\Users\MDS-Alex\Desktop\SigmaSW\4.1 arrays\obj\Debug\4.1 arrays.csproj.CoreCompileInputs.cache
+C:\Users\MDS-Alex\Desktop\SigmaSW\4.1 arrays\obj\Debug\4.1 arrays.exe
+C:\Users\MDS-Alex\Desktop\SigmaSW\4.1 arrays\obj\Debug\4.1 arrays.pdb

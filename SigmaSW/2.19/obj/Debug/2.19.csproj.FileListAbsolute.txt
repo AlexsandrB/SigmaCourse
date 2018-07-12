@@ -1,0 +1,6 @@
+C:\Users\MDS-Alex\Desktop\SigmaSW\2.19\bin\Debug\2.19.exe.config
+C:\Users\MDS-Alex\Desktop\SigmaSW\2.19\bin\Debug\2.19.exe
+C:\Users\MDS-Alex\Desktop\SigmaSW\2.19\bin\Debug\2.19.pdb
+C:\Users\MDS-Alex\Desktop\SigmaSW\2.19\obj\Debug\2.19.csproj.CoreCompileInputs.cache
+C:\Users\MDS-Alex\Desktop\SigmaSW\2.19\obj\Debug\2.19.exe
+C:\Users\MDS-Alex\Desktop\SigmaSW\2.19\obj\Debug\2.19.pdb

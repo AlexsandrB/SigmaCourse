@@ -1,0 +1,7 @@
+C:\Users\MDS-Alex\Desktop\SigmaSW\SigmaSW\bin\Debug\SigmaSW.exe.config
+C:\Users\MDS-Alex\Desktop\SigmaSW\SigmaSW\bin\Debug\SigmaSW.exe
+C:\Users\MDS-Alex\Desktop\SigmaSW\SigmaSW\bin\Debug\SigmaSW.pdb
+C:\Users\MDS-Alex\Desktop\SigmaSW\SigmaSW\obj\Debug\SigmaSW.csprojAssemblyReference.cache
+C:\Users\MDS-Alex\Desktop\SigmaSW\SigmaSW\obj\Debug\SigmaSW.csproj.CoreCompileInputs.cache
+C:\Users\MDS-Alex\Desktop\SigmaSW\SigmaSW\obj\Debug\SigmaSW.exe
+C:\Users\MDS-Alex\Desktop\SigmaSW\SigmaSW\obj\Debug\SigmaSW.pdb
