@@ -5,3 +5,10 @@ C:\Users\MDS-Alex\Desktop\SigmaSW\4.2 arrays\obj\Debug\4.2 arrays.csproj.CoreCom
 C:\Users\MDS-Alex\Desktop\SigmaSW\4.2 arrays\obj\Debug\4.2 arrays.exe
 C:\Users\MDS-Alex\Desktop\SigmaSW\4.2 arrays\obj\Debug\4.2 arrays.pdb
 C:\Users\MDS-Alex\Desktop\SigmaSW\4.2 arrays\obj\Debug\4.2 arrays.csprojAssemblyReference.cache
+C:\SigmaCourse\SigmaSW\4.2 arrays\bin\Debug\4.2 arrays.exe.config
+C:\SigmaCourse\SigmaSW\4.2 arrays\bin\Debug\4.2 arrays.exe
+C:\SigmaCourse\SigmaSW\4.2 arrays\bin\Debug\4.2 arrays.pdb
+C:\SigmaCourse\SigmaSW\4.2 arrays\obj\Debug\4.2 arrays.csprojAssemblyReference.cache
+C:\SigmaCourse\SigmaSW\4.2 arrays\obj\Debug\4.2 arrays.csproj.CoreCompileInputs.cache
+C:\SigmaCourse\SigmaSW\4.2 arrays\obj\Debug\4.2 arrays.exe
+C:\SigmaCourse\SigmaSW\4.2 arrays\obj\Debug\4.2 arrays.pdb

@@ -1,0 +1,7 @@
+C:\SigmaCourse\SigmaSW\2.22\bin\Debug\2.22.exe.config
+C:\SigmaCourse\SigmaSW\2.22\bin\Debug\2.22.exe
+C:\SigmaCourse\SigmaSW\2.22\bin\Debug\2.22.pdb
+C:\SigmaCourse\SigmaSW\2.22\obj\Debug\2.22.csprojAssemblyReference.cache
+C:\SigmaCourse\SigmaSW\2.22\obj\Debug\2.22.csproj.CoreCompileInputs.cache
+C:\SigmaCourse\SigmaSW\2.22\obj\Debug\2.22.exe
+C:\SigmaCourse\SigmaSW\2.22\obj\Debug\2.22.pdb

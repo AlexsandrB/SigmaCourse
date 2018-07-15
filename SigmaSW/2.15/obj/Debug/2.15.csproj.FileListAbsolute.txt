@@ -4,3 +4,10 @@ C:\Users\MDS-Alex\Desktop\SigmaSW\2.15\bin\Debug\2.15.pdb
 C:\Users\MDS-Alex\Desktop\SigmaSW\2.15\obj\Debug\2.15.csproj.CoreCompileInputs.cache
 C:\Users\MDS-Alex\Desktop\SigmaSW\2.15\obj\Debug\2.15.exe
 C:\Users\MDS-Alex\Desktop\SigmaSW\2.15\obj\Debug\2.15.pdb
+C:\SigmaCourse\SigmaSW\2.15\bin\Debug\2.15.exe.config
+C:\SigmaCourse\SigmaSW\2.15\bin\Debug\2.15.exe
+C:\SigmaCourse\SigmaSW\2.15\bin\Debug\2.15.pdb
+C:\SigmaCourse\SigmaSW\2.15\obj\Debug\2.15.csprojAssemblyReference.cache
+C:\SigmaCourse\SigmaSW\2.15\obj\Debug\2.15.csproj.CoreCompileInputs.cache
+C:\SigmaCourse\SigmaSW\2.15\obj\Debug\2.15.exe
+C:\SigmaCourse\SigmaSW\2.15\obj\Debug\2.15.pdb

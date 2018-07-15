@@ -4,3 +4,9 @@ C:\Users\MDS-Alex\Desktop\SigmaSW\4.3 arrays\bin\Debug\4.3 arrays.pdb
 C:\Users\MDS-Alex\Desktop\SigmaSW\4.3 arrays\obj\Debug\4.3 arrays.csproj.CoreCompileInputs.cache
 C:\Users\MDS-Alex\Desktop\SigmaSW\4.3 arrays\obj\Debug\4.3 arrays.exe
 C:\Users\MDS-Alex\Desktop\SigmaSW\4.3 arrays\obj\Debug\4.3 arrays.pdb
+C:\SigmaCourse\SigmaSW\4.3 arrays\bin\Debug\4.3 arrays.exe.config
+C:\SigmaCourse\SigmaSW\4.3 arrays\bin\Debug\4.3 arrays.exe
+C:\SigmaCourse\SigmaSW\4.3 arrays\bin\Debug\4.3 arrays.pdb
+C:\SigmaCourse\SigmaSW\4.3 arrays\obj\Debug\4.3 arrays.csproj.CoreCompileInputs.cache
+C:\SigmaCourse\SigmaSW\4.3 arrays\obj\Debug\4.3 arrays.exe
+C:\SigmaCourse\SigmaSW\4.3 arrays\obj\Debug\4.3 arrays.pdb

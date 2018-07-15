@@ -10,12 +10,35 @@ namespace _4._10_arrays
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
-            var a = input.Split(' ').ToList();
-            List<double> numbers = new List<double>();
-            a.ForEach(x => numbers.Add(Double.Parse(x)));
+            Console.WriteLine("Enter integer array dividing by whitespace");
+            var arr = Console.ReadLine().Split(' ').Select(c => { Int32.TryParse(c, out int a); return a; }).ToList();
+            Console.WriteLine("Enter value");
+            Int32.TryParse(Console.ReadLine(), out int value);
+            long[,] intervals = new long[arr.Count, arr.Count];
+            for (int i = 0; i < arr.Count; i++)
+            {
+                for (int j = 0; j < arr.Count; j++)
+                {
+                    for (int k = i; k <= j; k++)
+                    {
+                        intervals[i, j] += arr[k];
+                    }
+                }
+            }
 
-
+            StringBuilder strb = new StringBuilder();
+            strb.Append("Result: ");
+            for (int i = 0; i < arr.Count; i++)
+            {
+                for (int j = 0; j < arr.Count; j++)
+                {
+                    if (intervals[i, j] == value)
+                    {
+                        strb.Append($"({i};{j}), ");
+                    }
+                }
+            }
+            Console.WriteLine(strb.ToString());
         }
     }
 }

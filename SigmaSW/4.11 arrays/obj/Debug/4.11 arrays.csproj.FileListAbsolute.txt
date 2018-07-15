@@ -1,0 +1,6 @@
+C:\SigmaCourse\SigmaSW\4.11 arrays\bin\Debug\4.11 arrays.exe.config
+C:\SigmaCourse\SigmaSW\4.11 arrays\bin\Debug\4.11 arrays.exe
+C:\SigmaCourse\SigmaSW\4.11 arrays\bin\Debug\4.11 arrays.pdb
+C:\SigmaCourse\SigmaSW\4.11 arrays\obj\Debug\4.11 arrays.csproj.CoreCompileInputs.cache
+C:\SigmaCourse\SigmaSW\4.11 arrays\obj\Debug\4.11 arrays.exe
+C:\SigmaCourse\SigmaSW\4.11 arrays\obj\Debug\4.11 arrays.pdb

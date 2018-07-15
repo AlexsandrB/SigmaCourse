@@ -1,0 +1,6 @@
+C:\SigmaCourse\SigmaSW\4.40\bin\Debug\4.40.exe.config
+C:\SigmaCourse\SigmaSW\4.40\bin\Debug\4.40.exe
+C:\SigmaCourse\SigmaSW\4.40\bin\Debug\4.40.pdb
+C:\SigmaCourse\SigmaSW\4.40\obj\Debug\4.40.csproj.CoreCompileInputs.cache
+C:\SigmaCourse\SigmaSW\4.40\obj\Debug\4.40.exe
+C:\SigmaCourse\SigmaSW\4.40\obj\Debug\4.40.pdb
