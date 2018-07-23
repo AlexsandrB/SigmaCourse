@@ -1,0 +1,7 @@
+C:\SigmaCourse\SigmaSW\quickSort\bin\Debug\quickSort.exe.config
+C:\SigmaCourse\SigmaSW\quickSort\bin\Debug\quickSort.exe
+C:\SigmaCourse\SigmaSW\quickSort\bin\Debug\quickSort.pdb
+C:\SigmaCourse\SigmaSW\quickSort\obj\Debug\Sort.csproj.CoreCompileInputs.cache
+C:\SigmaCourse\SigmaSW\quickSort\obj\Debug\quickSort.exe
+C:\SigmaCourse\SigmaSW\quickSort\obj\Debug\quickSort.pdb
+C:\SigmaCourse\SigmaSW\quickSort\obj\Debug\Sort.csprojAssemblyReference.cache

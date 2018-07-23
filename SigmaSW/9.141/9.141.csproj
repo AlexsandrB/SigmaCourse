@@ -7,7 +7,7 @@
     <ProjectGuid>{2E93A064-E8B0-4471-B546-6ED9D2AE2C74}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_9._141</RootNamespace>
-    <AssemblyName>_9._141</AssemblyName>
+    <AssemblyName>9.141</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
