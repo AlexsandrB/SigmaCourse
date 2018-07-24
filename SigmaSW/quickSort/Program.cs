@@ -10,7 +10,6 @@ namespace Sort
         #region SelectionSort
         private static void SelectionSort(int[] array)
         {
-
             int smallestIndex, index, minIndex, temp;
 
             for (index = 0; index < array.Length - 1; index++)
@@ -117,9 +116,11 @@ namespace Sort
         #region QuickSort
         private static void QuickSort(int[] arr, int left, int right)
         {
+            PrintArrayAsString(arr, left, right);
             if (left < right)
             {
                 int wall = Partition(arr, left, right);
+                Console.WriteLine($"wall = {wall}");
 
                 if (wall > 1)
                 {
@@ -131,9 +132,11 @@ namespace Sort
                 }
             }
         }
-
+        
         private static int Partition(int[] arr, int left, int right)
         {
+            //Console.WriteLine("Partition");
+            //PrintArrayAsString(arr, left, right);
             int wall = arr[left];
             while (true)
             {
@@ -163,20 +166,20 @@ namespace Sort
         }
         #endregion
         #region MergeSort
-        public static void MergeSort(int[] input, int low, int high)
+        public static void MergeSort(int[] array, int low, int high)
         {
+            PrintArrayAsString(MainArray, low, high);
             if (low < high)
             {
                 int middle = (low / 2) + (high / 2);
-                MergeSort(input, low, middle);
-                MergeSort(input, middle + 1, high);
-                Merge(input, low, middle, high);
+                MergeSort(array, low, middle);
+                MergeSort(array, middle + 1, high);
+                Merge(array, low, middle, high);
             }
         }
         
-        private static void Merge(int[] input, int low, int middle, int high)
+        private static void Merge(int[] array, int low, int middle, int high)
         {
-
             int left = low;
             int right = middle + 1;
             int[] temp = new int[(high - low) + 1];
@@ -184,14 +187,14 @@ namespace Sort
 
             while ((left <= middle) && (right <= high))
             {
-                if (input[left] < input[right])
+                if (array[left] < array[right])
                 {
-                    temp[tempIndex] = input[left];
+                    temp[tempIndex] = array[left];
                     left = left + 1;
                 }
                 else
                 {
-                    temp[tempIndex] = input[right];
+                    temp[tempIndex] = array[right];
                     right = right + 1;
                 }
                 tempIndex = tempIndex + 1;
@@ -201,7 +204,7 @@ namespace Sort
             {
                 while (left <= middle)
                 {
-                    temp[tempIndex] = input[left];
+                    temp[tempIndex] = array[left];
                     left = left + 1;
                     tempIndex = tempIndex + 1;
                 }
@@ -211,7 +214,7 @@ namespace Sort
             {
                 while (right <= high)
                 {
-                    temp[tempIndex] = input[right];
+                    temp[tempIndex] = array[right];
                     right = right + 1;
                     tempIndex = tempIndex + 1;
                 }
@@ -219,7 +222,7 @@ namespace Sort
 
             for (int i = 0; i < temp.Length; i++)
             {
-                input[low + i] = temp[i];
+                array[low + i] = temp[i];
             }
 
         }
@@ -227,23 +230,23 @@ namespace Sort
 
         static void Main(string[] args)
         {
-            PrintArrayAsString(MainArray);
-            //QuickSort(MainArray, 0, MainArray.Length - 1);
+            PrintArrayAsString(MainArray, 0, 19);
+            QuickSort(MainArray, 0, MainArray.Length - 1);
             //BubbleSort(MainArray);
             //PyramidSort(MainArray, MainArray.Length);
             //InsertionSort(MainArray);
             //MergeSort(MainArray, 0, MainArray.Length - 1);
             //SelectionSort(MainArray);
-            PrintArrayAsString(MainArray);
+            PrintArrayAsString(MainArray, 0, 19);
             Console.ReadKey();
         }
 
-        private static void PrintArrayAsString(int[] array)
+        private static void PrintArrayAsString(int[] array, int from, int to)
         {
             string result = String.Empty;
-            foreach (int number in array)
+            for (int count = from; count <= to; count++)
             {
-                result += number.ToString() + " ";
+                result += array[count].ToString() + " ";
             }
             Console.WriteLine(result);
         }

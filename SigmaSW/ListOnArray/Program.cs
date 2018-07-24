@@ -8,12 +8,12 @@ namespace ListOnArray
 {
     class Program
     {
-        public class ArrayList<T> where T : new()
+        public class ArrayList<T> where T : IComparable, new()
         {
             private T[] MainArray;
             private int Nindex = 0;
 
-            public int Size
+            public int Count
             {
                 get
                 {
@@ -55,6 +55,61 @@ namespace ListOnArray
                     MainArray[Nindex] = item;
                     Nindex++;
                 }
+            }
+
+            public void AddRange(params T[] items)
+            {
+                if (MainArray.Length <= Nindex + items.Length)
+                {
+                    T[] temp = new T[MainArray.Length + items.Length];
+                    Array.Copy(MainArray, temp, MainArray.Length);
+                    MainArray = temp;
+                }
+                Array.ConstrainedCopy(items, 0, MainArray, Nindex, items.Length);
+                Nindex += items.Length;
+            }
+
+            public bool Contains(T item)
+            {
+                for (int i = 0; i < Nindex; i++)
+                {
+                    if (MainArray[i].CompareTo(item) == 0)
+                    {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            public int IndexOf(T item)
+            {
+                for (int i = 0; i < Nindex; i++)
+                {
+                    if (MainArray[i].CompareTo(item) == 0)
+                    {
+                        return i;
+                    }
+                }
+                return -1;
+            }
+
+            public int LastIndexOf(T item)
+            {
+                for (int i = Nindex - 1; i >= 0; i++)
+                {
+                    if (MainArray[i].CompareTo(item) == 0)
+                    {
+                        return i;
+                    }
+                }
+                return -1;
+            }
+
+            public T[] ToArray()
+            {
+                var temp = new T[Nindex];
+                Array.ConstrainedCopy(MainArray, 0, temp, 0, Nindex);
+                return temp;
             }
         }
 
